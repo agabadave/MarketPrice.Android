@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ug.co.dave.marketprice.MarketActivity">
+    <item
+        android:id="@+id/action_login"
+        android:title="@string/login"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_my_commodities"
+        android:title="@string/my_commodities"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_add_vendor_commodity"
+        android:title="@string/add_vendor_commodity"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_logout"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+    <!--<item android:id="@+id/action_settings" android:title="@string/action_settings"-->
+        <!--android:orderInCategory="100" app:showAsAction="never" />-->
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MarketPrice</string>
+    <string name="title_activity_market">Markets</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="please_wait_load_message">Please Wait...</string>
+    <string name="markets_message">Select any of the Markets below to pick a vendor.</string>
+    <string name="no_markets">Either no Markets were found or an network Error occurred. Please try again later.</string>
+    <string name="no_vendor">Either no Vendor was found or an network Error occurred. Please try again later.</string>
+    <string name="title_activity_vendor">Vendor</string>
+    <string name="vendor_summary">Shows the List of Commodities that the vendor sells with corresponding prices.</string>
+    <string name="vendor_no_commodities">This Vendor has not yet added any commodities.</string>
+    <string name="my_commodities">My Commodities</string>
+    <string name="add_vendor_commodity">Add Vendor Commodity</string>
+    <string name="usernmae_password_missing">Please specify both the username and password in order for you to login.</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="logout">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="been_logged_out">You\'ve been successfully logged out.</string>
+    <string name="title_activity_add_vendor_commodity">Add Vendor Commodity</string>
+
+    <string name="cost">Cost</string>
+    <string name="save">Save</string>
+    <string name="select_commodity">Select Commodity</string>
+    <string name="add_commodity_vendor_error">Something went wrong. Vendor Commodity could not be saved. Are you sure you added the cost? </string>
+    <string name="no_cost_error">Please Specify the Price of this Commodity</string>
+    <string name="commodity_vendor_network_error">A network error has occured. Vendor Commidty Could not be saved.</string>
+    <string name="commodity_vendor_successful">Vendor Commodity has been successfully added.</string>
+</resources>

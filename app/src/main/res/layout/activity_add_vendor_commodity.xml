@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/add_vendor_commodity_market"
+            android:layout_alignStart="@+id/add_vendor_commodity_market"
+            android:text="@string/select_commodity"
+            android:id="@+id/add_vendor_commodity_select_commodity_label" />
+
+        <Spinner
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_vendor_commodity_market"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/add_vendor_commodity_cost"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/add_vendor_commodity_market"
+        android:layout_alignLeft="@+id/add_vendor_commodity_market"
+        android:layout_alignStart="@+id/add_vendor_commodity_market"
+        android:hint="@string/cost"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginTop="20dp"
+        android:id="@+id/add_vendor_commodity_save"
+        android:layout_below="@+id/add_vendor_commodity_cost"
+        android:layout_alignLeft="@+id/add_vendor_commodity_cost"
+        android:layout_alignStart="@+id/add_vendor_commodity_cost"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
